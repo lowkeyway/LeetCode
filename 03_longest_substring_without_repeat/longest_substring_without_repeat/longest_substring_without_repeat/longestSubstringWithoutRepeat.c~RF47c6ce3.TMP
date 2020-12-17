@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "LeetCodeBox.h"
+
+const char *name = "0123abcloius";
+
+int lengthOfLongestSubstring(char* s) {
+	char bitMask[256] = { 0 };
+	unsigned int index = 0;
+	unsigned int temp = 0;
+
+	while (s[index] != '\0')
+	{
+		if (0 != bitMask[s[index]])
+		{
+			printf("Find the repeat char, It is %s\n", s[index]);
+			return index;
+		}
+
+		bitMask[s[index]] = TRUE;		
+		index++;
+	}
+	printf("\n");
+}
+
+int main(void)
+{
+	int len = 0;
+	len = lengthOfLongestSubstring(name);
+	printf("len = %d\n", len);
+}
