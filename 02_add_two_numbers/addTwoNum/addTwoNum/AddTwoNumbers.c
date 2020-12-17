@@ -30,6 +30,8 @@ void dumpList(struct list_head* head)
 	{
 		printf("%d -> ", pos->val);
 	}
+
+	printf("\n");
 }
 
 unsigned int listToInt(struct list_head *head)
@@ -68,11 +70,9 @@ unsigned char intToList(unsigned int num, struct list_head* head)
  *     struct ListNode *next;
  * };
  */
-struct list_head* addTwoNumbers(struct list_head* l1, struct list_head* l2) {
-	LIST_HEAD(L3);
-	INIT_LIST_HEAD(&L3);
-
+static char addTwoNumbers(struct list_head* l1, struct list_head* l2, struct list_head* l3) {
 	unsigned int int1, int2, int3;
+	char ret = -1;
 
 	int1 = listToInt(l1);
 	int2 = listToInt(l2);
@@ -80,11 +80,9 @@ struct list_head* addTwoNumbers(struct list_head* l1, struct list_head* l2) {
 	int3 = int1 + int2;
 	printf("int3 = %d\n", int3);
 
-	intToList(int3, &L3);
+	ret = intToList(int3, l3);
 
-	dumpList(&L3);
-
-	return NULL;
+	return ret;
 }
 
 
@@ -94,8 +92,10 @@ int main(void)
 
 	LIST_HEAD(L1);
 	LIST_HEAD(L2);
+	LIST_HEAD(L3);
 	INIT_LIST_HEAD(&L1);
 	INIT_LIST_HEAD(&L2);
+	INIT_LIST_HEAD(&L3);
 
 	addListTail(&L1, 2);
 	addListTail(&L1, 4);
@@ -109,7 +109,8 @@ int main(void)
 	//pos = container_of(L1.next->next, typeof(*pos), list);
 	//printf("pos->val = %d\n", pos->val);
 
-	addTwoNumbers(&L1, &L2);
+	addTwoNumbers(&L1, &L2, &L3);
+	dumpList(&L3);
 
 	system("pause");
 	return 0;
