@@ -1,0 +1,4 @@
+﻿  longest-palindromic-substring.c
+D:\louis\11_Embedded\00_github\LeetCode\05_longest-palindromic-substring\longest-palindromic-substring\longest-palindromic-substring\longest-palindromic-substring.c(44,10): warning C4013: 'memset' undefined; assuming extern returning int
+D:\louis\11_Embedded\00_github\LeetCode\05_longest-palindromic-substring\longest-palindromic-substring\longest-palindromic-substring\longest-palindromic-substring.c(45,10): warning C4013: 'memcpy' undefined; assuming extern returning int
+  longest-palindromic-substring.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\05_longest-palindromic-substring\longest-palindromic-substring\Debug\longest-palindromic-substring.exe
