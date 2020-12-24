@@ -1,0 +1,7 @@
+﻿palindrome-number.c(27,2): warning : implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+palindrome-number.c(27,2): message : include the header <string.h> or explicitly provide a declaration for 'memset'
+palindrome-number.c(39,6): warning : array subscript is of type 'char' [-Wchar-subscripts]
+palindrome-number.c(11,18): warning : unused variable 'strLen' [-Wunused-variable]
+palindrome-number.c(54,11): warning : implicitly declaring library function 'strlen' with type 'unsigned int (const char *)' [-Wimplicit-function-declaration]
+palindrome-number.c(54,11): message : include the header <string.h> or explicitly provide a declaration for 'strlen'
+  palindrome-number.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\09_palindrome-number\palindrome-number\Debug\palindrome-number.exe
