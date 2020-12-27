@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include "LeetCodeBox.h"
 
-char* intToRoman(int num) {
+char* intToRoman1(int num) {
 	char	index = 0, i = 0;
 	int		temp = 0;
 	bool	flag = 0;
@@ -137,11 +137,11 @@ char* intToRoman(int num) {
 	return ret;
 }
 
-int main(void)
+int main1(void)
 {
 	char* ret = NULL;
 	unsigned int number = 184;
-	ret = intToRoman(number);
+	ret = intToRoman1(number);
 	if(NULL != ret)
 		printf("%d = %s!\n", number, ret);
 

@@ -18,6 +18,9 @@
     <ClCompile Include="integer-to-roman.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="integerToRoman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeetCodeBox.h">

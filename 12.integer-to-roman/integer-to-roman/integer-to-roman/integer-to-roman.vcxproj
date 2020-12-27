@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="integer-to-roman.c" />
+    <ClCompile Include="integerToRoman.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeetCodeBox.h" />
