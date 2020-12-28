@@ -1,0 +1,4 @@
+﻿longest-common-prefix.c(16,2): warning : implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+longest-common-prefix.c(16,2): message : include the header <string.h> or explicitly provide a declaration for 'memset'
+longest-common-prefix.c(46,8): warning : unused variable 'i' [-Wunused-variable]
+  longest-common-prefix.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\14.longest-common-prefix\longest-common-prefix\Debug\longest-common-prefix.exe
