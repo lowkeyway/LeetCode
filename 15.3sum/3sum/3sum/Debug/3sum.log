@@ -1,0 +1,4 @@
+﻿3sum.c(29,8): warning : unused variable 'i' [-Wunused-variable]
+3sum.c(112,54): warning : variable 'returnColumSizes' is uninitialized when used here [-Wuninitialized]
+3sum.c(109,24): message : initialize the variable 'returnColumSizes' to silence this warning
+  3sum.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\15.3sum\3sum\Debug\3sum.exe
