@@ -1,0 +1,5 @@
+﻿3sum-closest.c(33,15): warning : unused variable 'retPre' [-Wunused-variable]
+3sum-closest.c(35,6): warning : unused variable 'array' [-Wunused-variable]
+3sum-closest.c(37,8): warning : unused variable 'i' [-Wunused-variable]
+3sum-closest.c(38,7): warning : unused variable 'flag' [-Wunused-variable]
+  3sum-closest.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\16.3sum-closest\3sum-closest\Debug\3sum-closest.exe
