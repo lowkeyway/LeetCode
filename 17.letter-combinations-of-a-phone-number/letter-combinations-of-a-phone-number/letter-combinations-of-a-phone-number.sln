@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "letter-combinations-of-a-phone-number", "letter-combinations-of-a-phone-number\letter-combinations-of-a-phone-number.vcxproj", "{22226A05-B80C-4997-BA3A-ECEFF2D06217}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22226A05-B80C-4997-BA3A-ECEFF2D06217}.Debug|x64.ActiveCfg = Debug|x64
+		{22226A05-B80C-4997-BA3A-ECEFF2D06217}.Debug|x64.Build.0 = Debug|x64
+		{22226A05-B80C-4997-BA3A-ECEFF2D06217}.Debug|x86.ActiveCfg = Debug|Win32
+		{22226A05-B80C-4997-BA3A-ECEFF2D06217}.Debug|x86.Build.0 = Debug|Win32
+		{22226A05-B80C-4997-BA3A-ECEFF2D06217}.Release|x64.ActiveCfg = Release|x64
+		{22226A05-B80C-4997-BA3A-ECEFF2D06217}.Release|x64.Build.0 = Release|x64
+		{22226A05-B80C-4997-BA3A-ECEFF2D06217}.Release|x86.ActiveCfg = Release|Win32
+		{22226A05-B80C-4997-BA3A-ECEFF2D06217}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5F313A9-ED84-42B5-8607-AE0D7D5D3347}
+	EndGlobalSection
+EndGlobal

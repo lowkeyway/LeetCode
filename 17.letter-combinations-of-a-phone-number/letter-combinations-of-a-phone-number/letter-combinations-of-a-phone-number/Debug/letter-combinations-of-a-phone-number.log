@@ -1,0 +1,9 @@
+﻿letter-combinations-of-a-phone-number.c(21,41): warning : implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+letter-combinations-of-a-phone-number.c(21,41): message : include the header <string.h> or explicitly provide a declaration for 'memset'
+letter-combinations-of-a-phone-number.c(22,9): warning : implicitly declaring library function 'memcpy' with type 'void *(void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+letter-combinations-of-a-phone-number.c(22,9): message : include the header <string.h> or explicitly provide a declaration for 'memcpy'
+letter-combinations-of-a-phone-number.c(30,25): warning : implicitly declaring library function 'strlen' with type 'unsigned int (const char *)' [-Wimplicit-function-declaration]
+letter-combinations-of-a-phone-number.c(30,25): message : include the header <string.h> or explicitly provide a declaration for 'strlen'
+letter-combinations-of-a-phone-number.c(50,18): warning : passing 'char *' to parameter of type 'uchar *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+letter-combinations-of-a-phone-number.c(16,33): message : passing argument to parameter 'digits' here
+  letter-combinations-of-a-phone-number.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\17.letter-combinations-of-a-phone-number\letter-combinations-of-a-phone-number\Debug\letter-combinations-of-a-phone-number.exe

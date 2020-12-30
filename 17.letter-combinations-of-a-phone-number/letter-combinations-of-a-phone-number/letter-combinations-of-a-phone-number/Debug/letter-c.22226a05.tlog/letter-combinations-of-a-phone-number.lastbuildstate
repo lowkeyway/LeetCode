@@ -1,0 +1,2 @@
+PlatformToolSet=ClangCL:VCToolArchitecture=Native32Bit:VCToolsVersion=14.28.29333:TargetPlatformVersion=10.0.18362.0:
+Debug|Win32|D:\louis\11_Embedded\00_github\LeetCode\17.letter-combinations-of-a-phone-number\letter-combinations-of-a-phone-number\|C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\Llvm\
