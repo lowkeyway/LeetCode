@@ -4,6 +4,8 @@
 
 给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
 
+<img src="https://github.com/lowkeyway/LeetCode/blob/main/17.letter-combinations-of-a-phone-number/pic/17_telephone_keypad.png">
+
 ## 示例:
 ```
 输入："23"
