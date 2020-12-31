@@ -1,0 +1,5 @@
+﻿4sum.c(40,40): warning : incompatible pointer types passing 'bool (const void *, const void *)' to parameter of type '_CoreCrtNonSecureSearchSortCompareFunction' (aka 'int (*)(const void *, const void *)') [-Wincompatible-pointer-types]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_search.h(60,68): message : passing argument to parameter '_CompareFunction' here
+4sum.c(95,64): warning : variable 'returnColumnSizes' is uninitialized when used here [-Wuninitialized]
+4sum.c(92,28): message : initialize the variable 'returnColumnSizes' to silence this warning
+  4sum.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\18.4sum\4sum\Debug\4sum.exe
