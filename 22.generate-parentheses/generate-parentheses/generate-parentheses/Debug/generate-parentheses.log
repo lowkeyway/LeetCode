@@ -1,0 +1,10 @@
+﻿generate-parentheses.c(32,17): warning : implicitly declaring library function 'strlen' with type 'unsigned int (const char *)' [-Wimplicit-function-declaration]
+generate-parentheses.c(32,17): message : include the header <string.h> or explicitly provide a declaration for 'strlen'
+generate-parentheses.c(37,13): warning : implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+generate-parentheses.c(37,13): message : include the header <string.h> or explicitly provide a declaration for 'memset'
+generate-parentheses.c(38,13): warning : implicitly declaring library function 'memcpy' with type 'void *(void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+generate-parentheses.c(38,13): message : include the header <string.h> or explicitly provide a declaration for 'memcpy'
+generate-parentheses.c(83,41): warning : passing 'uint *' (aka 'unsigned int *') to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+generate-parentheses.c(56,40): message : passing argument to parameter 'returnSize' here
+generate-parentheses.c(70,17): warning : unused variable 'j' [-Wunused-variable]
+  generate-parentheses.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\22.generate-parentheses\generate-parentheses\Debug\generate-parentheses.exe
