@@ -4,58 +4,45 @@
 #include "LeetCodeBox.h"
 #include "LeetCodeList.h"
 
-#define BRA_NUM 2
+#define BRA_NUM 3
 
 char** rets;
 char* ret;
 
-bool isValid(char* s, uint sSize)
-{
-    uint i = 0;
-    uint left = 0, right = 0;
-    if (0 != sSize % 2) return false;
-
-    for (i = 0; i < sSize; i++)
-    {
-        if ('(' == s[i]) left++;
-        if (')' == s[i]) right++;
-        if (left < right) return false;
-    }
-
-    if (left != right)   return false;
-
-    return true;
-}
-
-void callBack(char *ret, int* retIndex, uint size, char **rets, int* returnIndex)
+void callBack(char *ret, int* retIndex, uint size, char **rets, int* returnIndex, int left, int right)
 {
     if (size == strlen(ret))
     {
-        if (isValid(ret, size))
-        {
-            char* temp = malloc(size + 1);
-            memset(temp, 0, size + 1);
-            memcpy(temp, ret, size);
-            rets[(*returnIndex)++] = temp;
-        }
+        char* temp = malloc(size + 1);
+        memset(temp, 0, size + 1);
+        memcpy(temp, ret, size);
+        rets[(*returnIndex)++] = temp;
         return;
     }
-    ret[(*retIndex)++] = '(';
-    callBack(ret, retIndex, size, rets, returnIndex);
-    ret[*retIndex] = '\0';
-    (*retIndex)--;
-    ret[(*retIndex)++] = ')';
-    callBack(ret, retIndex, size, rets, returnIndex);
-    ret[*retIndex] = '\0';
-    (*retIndex)--;
+
+    if (left < size / 2)
+    {
+        ret[(*retIndex)++] = '(';
+        callBack(ret, retIndex, size, rets, returnIndex, left+1, right);
+        ret[*retIndex] = '\0';
+        (*retIndex)--;
+    }
+
+    if (left > right)
+    {
+        ret[(*retIndex)++] = ')';
+        callBack(ret, retIndex, size, rets, returnIndex, left, right+1);
+        ret[*retIndex] = '\0';
+        (*retIndex)--;
+    }
 }
 
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
 char** generateParenthesis(int n, int* returnSize) {
-    int retIndex = 0;
-    callBack(ret, &retIndex, BRA_NUM * 2, rets, returnSize);
+    int retIndex = 0, left = 0, right = 0;
+    callBack(ret, &retIndex, n * 2, rets, returnSize, left, right);
     return rets;
 }
 
@@ -86,9 +73,6 @@ int main(void)
     {
         printf("[%s]\n", rets[i]);
     }
-
-    valid = isValid(s, strlen(s));
-    printf("valid = %d\n", valid);
 
     return true;
 }
