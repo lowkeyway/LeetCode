@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <stddef.h>
+#include <stdbool.h>
 
 #define container_of(ptr, type, member)     (type *)((char *)(ptr) - (char *) &((type *)0)->member)
 
@@ -82,6 +83,14 @@ list_empty(struct list_head *head)
 	     !list_entry_is_head(pos, head, member);				\
 	     pos = list_next_entry(pos, member))
 
+
+/************************************/
+/********** Sigle List **************/
+/************************************/
+typedef struct ListNode {
+	int val;
+	struct ListNode* next;
+}ListNode_t;
 
 #endif // !_LEETCODE_LIST_
 #pragma once
