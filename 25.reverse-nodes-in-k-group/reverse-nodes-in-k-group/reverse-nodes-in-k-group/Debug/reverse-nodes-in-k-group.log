@@ -1,0 +1,2 @@
+﻿reverse-nodes-in-k-group.c(43,31): warning : unused variable 'nex' [-Wunused-variable]
+  reverse-nodes-in-k-group.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\25.reverse-nodes-in-k-group\reverse-nodes-in-k-group\Debug\reverse-nodes-in-k-group.exe
