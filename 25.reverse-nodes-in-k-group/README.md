@@ -27,12 +27,13 @@ k 是一个正整数，它的值小于或等于链表的长度。
 ## 解题步骤：
 ```
 1. 数组变链表；
-2. while(head)
+2. head 前加 hair
+while(head)
 {
-  2.1 K个一组，找Head 和 Tail, 不足K个直接返回Hair；
+  2.1 K个一组，找Head 和 Tail, 不足K个直接返回hair；
   2.2 对这K个节点的链表翻转（步骤3）；
   2.3 对翻转后的链表做前后拼接；
 }
-return Hair.
+return hair.
 3. 翻转K个节点的链表
 ```
