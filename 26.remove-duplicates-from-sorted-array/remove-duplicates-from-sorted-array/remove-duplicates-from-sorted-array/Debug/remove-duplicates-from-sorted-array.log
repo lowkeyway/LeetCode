@@ -1,0 +1,4 @@
+﻿  remove-duplicates-from-sorted-array.c
+D:\louis\11_Embedded\00_github\LeetCode\26.remove-duplicates-from-sorted-array\remove-duplicates-from-sorted-array\remove-duplicates-from-sorted-array\remove-duplicates-from-sorted-array.c(46,37): warning C4098: 'sortFunc': 'void' function returning a value
+D:\louis\11_Embedded\00_github\LeetCode\26.remove-duplicates-from-sorted-array\remove-duplicates-from-sorted-array\remove-duplicates-from-sorted-array\remove-duplicates-from-sorted-array.c(53,60): warning C4133: 'function': incompatible types - from 'void (__cdecl *)(const void *,const void *)' to '_CoreCrtNonSecureSearchSortCompareFunction'
+  remove-duplicates-from-sorted-array.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\26.remove-duplicates-from-sorted-array\remove-duplicates-from-sorted-array\Debug\remove-duplicates-from-sorted-array.exe
