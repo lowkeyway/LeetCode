@@ -1,0 +1,6 @@
+﻿implement-strstr.c(16,12): warning : implicitly declaring library function 'strlen' with type 'unsigned int (const char *)' [-Wimplicit-function-declaration]
+implement-strstr.c(16,12): message : include the header <string.h> or explicitly provide a declaration for 'strlen'
+  In file included from implement-strstr.c:5:
+./LeetCodeList.h(96,1): warning : unused function 'intToList' [-Wunused-function]
+./LeetCodeList.h(121,1): warning : unused function 'dumpList' [-Wunused-function]
+  implement-strstr.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\28.implement-strstr\implement-strstr\Debug\implement-strstr.exe
