@@ -1,0 +1,4 @@
+﻿  In file included from divide-two-integers.c:5:
+./LeetCodeList.h(96,1): warning : unused function 'intToList' [-Wunused-function]
+./LeetCodeList.h(121,1): warning : unused function 'dumpList' [-Wunused-function]
+  divide-two-integers.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\29.divide-two-integers\divide-two-integers\Debug\divide-two-integers.exe
