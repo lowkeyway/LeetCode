@@ -1,0 +1,4 @@
+﻿  In file included from substring-with-concatenation-of-all-words.c:6:
+./LeetCodeList.h(96,1): warning : unused function 'intToList' [-Wunused-function]
+./LeetCodeList.h(121,1): warning : unused function 'dumpList' [-Wunused-function]
+  substring-with-concatenation-of-all-words.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\30.substring-with-concatenation-of-all-words\substring-with-concatenation-of-all-words\Debug\substring-with-concatenation-of-all-words.exe
