@@ -183,23 +183,33 @@ uint getHashValue(hashListNode_t* head, uint listSize, char* str, uint strSize)
 
 bool comHashList(hashListNode_t* headWords, hashListNode_t* headStr, int listWordsSize, char*s, int wordLen, int wordSize)
 {
-    bool ret = 0;
+    bool ret = true;
     char* temp = s;
-    uint i = 0, value;
+    uint i = 0, valueWords, valueStr;
 
 
     for (i = 0; i < wordSize; i++)
     {
-        value = getHashValue(headWords, listWordsSize, temp, wordLen);
-        if (0 == value)  return false;
+        valueWords = getHashValue(headWords, listWordsSize, temp, wordLen);
+        if (0 == valueWords)  return false;
         addToHashList(headStr, listWordsSize, temp, wordLen);
         temp += wordLen;
     }
 
-    printf("Dump headWords-->\n");
+    printf("\nDump headWords-->\n");
     dumpHashList(headWords, listWordsSize);
-    printf("Dump headStr-->\n");
+    printf("\nDump headStr-->\n");
     dumpHashList(headStr, listWordsSize);
+
+    temp = s;
+    for (i = 0; i < wordSize; i++)
+    {
+        valueWords = getHashValue(headWords, listWordsSize, temp, wordLen);
+        valueStr = getHashValue(headStr, listWordsSize, temp, wordLen);
+        if (valueStr != valueWords)  return false;
+        temp += wordLen;
+    }
+
 
     return ret;
 }
@@ -243,11 +253,16 @@ int* findSubstring(char* s, char** words, int wordsSize, int* returnSize) {
 
     for (i = 0; i < (strLen - wordSize); i++)
     {
-        printf("==>[%d]: \n", i);
-        comHashList(headWords, headStr, listWordsSize, &s[i], wordLen, wordSize);
+        printf("\n\n==>[%d]: \n", i);
+        matchFlag = comHashList(headWords, headStr, listWordsSize, &s[i], wordLen, wordSize);
+        if (matchFlag)
+        {
+            printf("$$$$$$$$$$ i = %d $$$$$$$$$$\n", i);
+            ret[index++] = i;
+        }
         freeHashList(headStr, listWordsSize);
     }
-
+    *returnSize = index;
     return ret;
 }
 
@@ -255,12 +270,20 @@ int main(void)
 {
     char* s = "barfoothefoobarman";
     char* words[] = { "foo","bar" };
+    uint i = 0;
 
     uint wordsSize = ARRAY_SIZE(words) * strlen(words[0]);
     int returnSize;
     int* ret;
 
     ret = findSubstring(s, words, wordsSize, &returnSize);
+    printf("[ ");
+    for (i = 0; i < returnSize; i++)
+    {
+        printf("%2d ", ret[i]);
+    }
+    printf(" ]");
+
 
     return true;
 }
