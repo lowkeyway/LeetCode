@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="LeetCodeBox.h" />
+    <ClInclude Include="LeetCodeHash.h" />
     <ClInclude Include="LeetCodeList.h" />
   </ItemGroup>
   <ItemGroup>

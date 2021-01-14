@@ -21,6 +21,9 @@
     <ClInclude Include="LeetCodeList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LeetCodeHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="substring-with-concatenation-of-all-words.c">
