@@ -16,6 +16,7 @@
 typedef unsigned int	uint;
 typedef unsigned char	uchar;
 typedef unsigned long	ulong;
+typedef unsigned long long ull;
 
 #endif // !_LEETCODE_BOX_
 #pragma once
