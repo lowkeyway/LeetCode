@@ -1,0 +1,5 @@
+﻿  next-permutation.c
+D:\louis\11_Embedded\00_github\LeetCode\31.next-permutation\next-permutation\next-permutation\next-permutation.c(19,19): warning C4018: '<': signed/unsigned mismatch
+D:\louis\11_Embedded\00_github\LeetCode\31.next-permutation\next-permutation\next-permutation\next-permutation.c(18,9): warning C4101: 'temp': unreferenced local variable
+D:\louis\11_Embedded\00_github\LeetCode\31.next-permutation\next-permutation\next-permutation\next-permutation.c(30,19): warning C4018: '<': signed/unsigned mismatch
+  next-permutation.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\31.next-permutation\next-permutation\Debug\next-permutation.exe
