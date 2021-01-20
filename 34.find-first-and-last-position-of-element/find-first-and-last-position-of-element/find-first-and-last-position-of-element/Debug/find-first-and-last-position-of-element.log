@@ -1,1 +1,5 @@
-﻿  find-first-and-last-position-of-element.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\34.find-first-and-last-position-of-element\find-first-and-last-position-of-element\Debug\find-first-and-last-position-of-element.exe
+﻿find-first-and-last-position-of-element.c(14,5): warning : implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+find-first-and-last-position-of-element.c(14,5): message : include the header <string.h> or explicitly provide a declaration for 'memset'
+find-first-and-last-position-of-element.c(28,9): warning : unused variable 'index' [-Wunused-variable]
+find-first-and-last-position-of-element.c(30,10): warning : unused variable 'flag' [-Wunused-variable]
+  find-first-and-last-position-of-element.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\34.find-first-and-last-position-of-element\find-first-and-last-position-of-element\Debug\find-first-and-last-position-of-element.exe

@@ -141,6 +141,10 @@
   <ItemGroup>
     <ClCompile Include="find-first-and-last-position-of-element.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LeetCodeBox.h" />
+    <ClInclude Include="LeetCodeSearch.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
