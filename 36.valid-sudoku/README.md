@@ -6,6 +6,8 @@
 数字 1-9 在每一列只能出现一次。
 数字 1-9 在每一个以粗实线分隔的 3x3 宫内只能出现一次。
 
+<img src="https://github.com/lowkeyway/LeetCode/blob/main/36.valid-sudoku/pic/%E6%95%B0%E7%8B%AC.png">
+
 上图是一个部分填充的有效的数独。
 
 数独部分空格内已填入了数字，空白格用 '.' 表示。
