@@ -1,0 +1,4 @@
+﻿  valid-sudoku.c
+D:\louis\11_Embedded\00_github\LeetCode\36.valid-sudoku\valid-sudoku\valid-sudoku\LeetCodeBox.h(24,19): warning C4018: '<': signed/unsigned mismatch
+D:\louis\11_Embedded\00_github\LeetCode\36.valid-sudoku\valid-sudoku\valid-sudoku\LeetCodeBox.h(35,19): warning C4018: '<': signed/unsigned mismatch
+  valid-sudoku.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\36.valid-sudoku\valid-sudoku\Debug\valid-sudoku.exe
