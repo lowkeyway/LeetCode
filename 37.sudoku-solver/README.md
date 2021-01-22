@@ -10,6 +10,12 @@
 
 空白格用 '.' 表示。
 
+<img src="https://github.com/lowkeyway/LeetCode/blob/main/37.sudoku-solver/pic/Ori.png">
+
+一个数独。
+
+<img src="https://github.com/lowkeyway/LeetCode/blob/main/37.sudoku-solver/pic/Fin.png">
+
 答案被标成红色。
 
 ## 提示：
