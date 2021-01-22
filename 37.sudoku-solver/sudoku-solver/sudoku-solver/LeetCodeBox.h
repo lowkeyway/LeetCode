@@ -39,5 +39,16 @@ void dumpStrArray(char** nums, int numsSize)
     printf("]\n");
 }
 
+void dumpCharArray(char* nums, int numsSize)
+{
+    uint i = 0;
+    printf("[ ");
+    for (i = 0; i < numsSize; i++)
+    {
+        printf("\'%c\'  ", nums[i]);
+    }
+    printf("]\n");
+}
+
 #endif // !_LEETCODE_BOX_
 #pragma once

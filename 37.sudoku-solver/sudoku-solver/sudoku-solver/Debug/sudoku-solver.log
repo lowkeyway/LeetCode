@@ -1,0 +1,11 @@
+﻿sudoku-solver.c(37,10): warning : unused variable 'cur' [-Wunused-variable]
+sudoku-solver.c(75,33): warning : array subscript is of type 'char' [-Wchar-subscripts]
+sudoku-solver.c(77,33): warning : array subscript is of type 'char' [-Wchar-subscripts]
+sudoku-solver.c(79,33): warning : array subscript is of type 'char' [-Wchar-subscripts]
+sudoku-solver.c(81,29): warning : array subscript is of type 'char' [-Wchar-subscripts]
+sudoku-solver.c(82,29): warning : array subscript is of type 'char' [-Wchar-subscripts]
+sudoku-solver.c(83,29): warning : array subscript is of type 'char' [-Wchar-subscripts]
+sudoku-solver.c(59,11): warning : unused variable 'boxSize' [-Wunused-variable]
+sudoku-solver.c(108,39): warning : passing 'uint *' (aka 'unsigned int *') to parameter of type 'int *' converts between pointers to integer types with different sign [-Wpointer-sign]
+sudoku-solver.c(55,55): message : passing argument to parameter 'boardColSize' here
+  sudoku-solver.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\37.sudoku-solver\sudoku-solver\Debug\sudoku-solver.exe
