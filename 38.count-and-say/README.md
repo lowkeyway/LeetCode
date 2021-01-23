@@ -27,7 +27,7 @@
 
 例如，数字字符串 "3322251" 的描述如下图：
 
-
+<img src="https://github.com/lowkeyway/LeetCode/blob/main/38.count-and-say/pic/countandsay.jpg">
  
 
 ## 示例 1：
