@@ -1,0 +1,5 @@
+﻿count-and-say.c(15,5): warning : implicitly declaring library function 'memset' with type 'void *(void *, int, unsigned int)' [-Wimplicit-function-declaration]
+count-and-say.c(15,5): message : include the header <string.h> or explicitly provide a declaration for 'memset'
+count-and-say.c(36,5): warning : implicitly declaring library function 'memcpy' with type 'void *(void *, const void *, unsigned int)' [-Wimplicit-function-declaration]
+count-and-say.c(36,5): message : include the header <string.h> or explicitly provide a declaration for 'memcpy'
+  count-and-say.vcxproj -> D:\louis\11_Embedded\00_github\LeetCode\38.count-and-say\count-and-say\Debug\count-and-say.exe
